@@ -6,6 +6,19 @@ body
 
 a
 {
-	color: black;
+	color: white;
 	text-decoration: none;
+}
+#fb
+{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	background-color: blue;
+	width: 250px;
+	height: 44px;
+	font-size: 30px;
+	text-align: center;
+	padding: 50px 10px;
+	letter-spacing: 4px;
 }
