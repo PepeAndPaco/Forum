@@ -1,5 +1,6 @@
 body
 {
+<<<<<<< HEAD
 	background-image: url("images/forum1.jpg");
 	color: #ffffff;
 	text-decoration: none;
@@ -8,6 +9,63 @@ body
 }
 
 #Container
+=======
+	background-image: url("tlo.png");
+	color: black;
+	font-size: 20px;
+	margin: 0;
+}
+
+
+#logo
+{
+	height: 100px;
+	width: 250px;
+}
+
+div img
+{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+#menu
+{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #ff3333;
+	text-align: center;	
+}
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+}
+ol > li:first-child
+{
+		border-left: 1px dashed #751b1b;
+}
+ol > li:hover
+{
+	background-color: #e62132
+}
+
+
+a
+>>>>>>> 73fa3a11f31665b6adf4b372e68beee4f6c2d759
 {
 	background-color: rgba(0, 0, 0, 0);    		
 	margin: 20px;
