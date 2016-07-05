@@ -1,24 +1,67 @@
 body
 {
-	background-color: #000000;
-	color: white;
+	background-image: url("images/forum1.jpg");
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size:10px;
 }
 
-a
+#Container
 {
-	color: white;
+	background-color: rgba(0, 0, 0, 0);    		
+	margin: 20px;
+}
+
+#Menu
+{
+	float: left;		
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#TableOfContents
+{	
+	color: #ffffff;
 	text-decoration: none;
-}
-#fb
-{
 	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	background-color: blue;
-	width: 250px;
-	height: 44px;
-	font-size: 30px;
-	text-align: center;
-	padding: 50px 10px;
-	letter-spacing: 4px;
+	margin-left: auto;	
 }
+
+#Logo
+{
+	float: left;
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.tile1
+{
+	float:left;
+	font-family: 'Josefin Sans', sans-serif;	
+	font-size:18px;
+	margin-top:20px;	
+	margin-left:5px;
+	text-align: center;		
+	width:110px;
+	height:35px;
+
+	border: solid;
+    border-color:#ffffff;
+	border-radius: 5px;	
+}
+
+.tile1:hover
+{	
+	border: solid;
+    border-color:#cccccc;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
